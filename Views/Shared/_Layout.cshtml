@@ -232,12 +232,12 @@
     <script>
         $(document).ready(function () {
             $('.table').DataTable();
+            tinymce.init({
+                selector: '#Body'
+            });
         });
 
         @*TinyMCE*@
-        tinymce.init({
-            selector: '#Body'
-        });
 
 
 
